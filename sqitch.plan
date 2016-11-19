@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=flipr
+%uri=git@github.com:hao-dba/test
+
+appschema 2016-11-19T19:29:23Z testfirst testlast <tester@tester> # Add schema for all flipr objects.

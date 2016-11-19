@@ -5,3 +5,6 @@
 appschema 2016-11-19T19:29:23Z testfirst testlast <tester@tester> # Add schema for all flipr objects.
 users [appschema] 2016-11-19T19:34:44Z testfirst testlast <tester@tester> # Creates table to track our users.
 @v1.0.0-dev1 2016-11-19T21:11:25Z testfirst testlast <tester@tester> # Tag v1.0.0-dev1.
+
+insert_user [users appschema] 2016-11-19T21:42:34Z testfirst testlast <tester@tester> # Creates a function to insert a user.
+change_pass [users appschema] 2016-11-19T21:42:55Z testfirst testlast <tester@tester> # Creates a function to change a user password.

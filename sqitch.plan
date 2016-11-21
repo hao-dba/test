@@ -9,3 +9,6 @@ users [appschema] 2016-11-19T19:34:44Z testfirst testlast <tester@tester> # Crea
 insert_user [users appschema] 2016-11-19T21:42:34Z testfirst testlast <tester@tester> # Creates a function to insert a user.
 change_pass [users appschema] 2016-11-19T21:42:55Z testfirst testlast <tester@tester> # Creates a function to change a user password.
 lists 2016-11-21T18:35:45Z testfirst testlast <tester@tester> # add lists table
+flips [appschema users] 2016-11-21T18:17:42Z testfirst testlast <tester@tester> # Adds table for storing flips
+insert_flip [flips] 2016-11-21T18:23:40Z testfirst testlast <tester@tester> # Insert flip table
+delete_flip [flips] 2016-11-21T18:23:56Z testfirst testlast <tester@tester> # Delete from  flip table
